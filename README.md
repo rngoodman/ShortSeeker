@@ -123,26 +123,26 @@ The snakemake pipeline will run QC, assembly, MLST and AMR gene screening on the
 Therefore before continuing check the following:
 
 - You have the `fastq.gz` files you want to assemble in your current directory (a simple `ls` command will confirm this)
-- You have a `samples.txt` file which contains sample names which are identical to your `fastq.gz` files before the `_1.fastq.gz` and `_2.fastq.gz`.
+- You have a `samples.txt` file which contains sample names which are identical to your `fastq.gz` files before the `_1.fastq.gz` and `_2.fastq.gz`
 - You have cloned the ShortSeeker repository (see above)
 - You have snakemake installed and accessable (type `snakemake` and check it’s there)
 
 If you have all these things continue ahead.
 
-First test with a dry run.
+First test with a dry run:
 
 ```bash
 snakemake --cores 1 --directory .test/ --use-conda -n
 ```
 
-Next run for real 
+Next run for real:
 
 ```bash
 snakemake --cores 4 --use-conda
 ```
 
 - `--use-conda` is essential and means that all the required packages will be downloaded and installed through conda without you having to do it yourself.
-- `—cores` dictates the amount of threads or cores you want to give to the pipeline to run the task
+- `—cores` dictates the amount of threads or cores you want to give to the pipeline to run the task. This example uses a modest 4 but use more if your computer can take it. Generally the more cores you give the pipeline the less time it will take to complete. 
 
 ### Output
 
