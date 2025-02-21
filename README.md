@@ -57,7 +57,7 @@ gzip *.fastq
 
 ### 3A. **Download files**
 
-If you want to run the piepline on sequence files downloaded from online databases this is an example you can follow.
+If you want to run the pipeline on sequence files downloaded from online databases this is an example you can follow.
 
 In this example we will download some accessions from the [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/home).
 
@@ -130,7 +130,7 @@ Therefore before continuing check the following:
 - You have the `fastq.gz` files you want to assemble in your current directory (a simple `ls` command will confirm this)
 - You have a `samples.txt` file which contains sample names which are identical to your `fastq.gz` files before the `_1.fastq.gz` and `_2.fastq.gz`
 - You have cloned the ShortSeeker repository (see above)
-- You have snakemake installed and accessable (type `snakemake` and check it’s there)
+- You have snakemake installed and accessible (type `snakemake` and check it’s there)
 
 If you have all these things continue ahead.
 
