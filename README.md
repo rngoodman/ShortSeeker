@@ -2,7 +2,7 @@
 
 # ShortSeeker
 
-[![Snakemake](https://img.shields.io/badge/snakemake-v8.27.1-brightgreen)(https://snakemake.bitbucket.io)
+![Snakemake](https://img.shields.io/badge/snakemake-v8.27.1-brightgreen)(https://snakemake.bitbucket.io)
 
 ShortSeeker is a snakemake pipeline which assembles and analyses paired fastq short-read files. It also produces a html report with MLST sequence typing and acquired AMR genes for multiple genomes. 
 
