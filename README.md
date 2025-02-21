@@ -5,7 +5,7 @@ ShortSeeker is a snakemake pipeline which assembles and analyses paired fastq sh
 
 # Contents 
 
-- [Installation and usage](#"Installation and usage")
+- [Installation and usage](#Installation and usage)
 
 # Installation and usage
 
