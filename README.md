@@ -5,7 +5,10 @@ ShortSeeker is a snakemake pipeline which assembles and analyses paired fastq sh
 
 # Contents 
 
-- [Installation and usage](https://github.com/rngoodman/ShortSeeker/blob/main/README.md#installation-and-usage))
+- [Installation and usage](https://github.com/rngoodman/ShortSeeker/blob/main/README.md#installation-and-usage)
+  - [Clone ShortSeeker repo](https://github.com/rngoodman/ShortSeeker/blob/main/README.md#1-clone-shortseeker-repo)
+- [Software used](https://github.com/rngoodman/ShortSeeker/blob/main/README.md#third-party-software)
+- [Alternatives](https://github.com/rngoodman/ShortSeeker/blob/main/README.md#alternative-tools)
 
 # Installation and usage
 
@@ -150,8 +153,8 @@ Please note that ShortSeeker is a pipeline which connects software written by ot
 
 # Alternative tools
 
-- [Bactopia](https://github.com/bactopia/bactopia)) uses Nextflow to create a flexible pipeline for the assembly and analysis of bacterial genomes.
-  [ASA³P](https://github.com/oschwengers/asap) uses Netxflow to assemble, annotate and analyse genome data of closely related bacterial isolates. 
+- [Bactopia](https://github.com/bactopia/bactopia) uses Nextflow to create a flexible pipeline for the assembly and analysis of bacterial genomes.
+- [ASA³P](https://github.com/oschwengers/asap) uses Netxflow to assemble, annotate and analyse genome data of closely related bacterial isolates. 
 - [nullarbor](https://github.com/tseemann/nullarbor) is a pipeline using perl to generate public health microbiology reports from sequenced isolates.  
 
 
