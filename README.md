@@ -2,7 +2,7 @@
 
 ShortSeeker is a snakemake pipeline which assembles and analyses paired fastq short-read files. It also produces a html report with MLST sequence typing and AMR genes for multiple genomes. 
 
-# Tutorial
+# Installation and usage
 
 ## 1. Clone ShortSeeker repo
 
@@ -131,3 +131,28 @@ snakemake --cores 4 --use-conda
 ### Output
 
 This will write lots of text throughout but it should take your fastq files all the way from `.fastq.gz` through to assembled `fasta` file and a `html` report.
+
+
+# Third party software 
+
+Please note that ShortSeeker is a pipeline which connects software written by others and is only possible with these other tools. If you use ShortSeeker please cite the following tools:
+
+- [fastp](https://github.com/OpenGene/fastp) for quality control, Q score filtering and adapter trimming.
+- [seqkit](https://github.com/shenwei356/seqkit) for quality control metrics
+- [shovill](https://github.com/tseemann/shovill) for assembly and by extension the assembler use e.g.[SPAdes](https://github.com/ablab/spades) 
+- [mlst](https://github.com/tseemann/mlst) for multi-locus sequence typing and the [PubMLST database](https://pubmlst.org/)
+- [fabricate](https://github.com/tseemann/abricate) for screening assembled contigs for AMR genes and the [Resfinder database](doi:10.1093/jac/dks261).
+
+# Alternative tools
+
+- [Bactopia](https://github.com/bactopia/bactopia)) uses Nextflow to create a flexible pipeline for the assembly and analysis of bacterial genomes.
+  [ASA³P](https://github.com/oschwengers/asap) uses Netxflow to assemble, annotate and analyse genome data of closely related bacterial isolates. 
+- [nullarbor](https://github.com/tseemann/nullarbor) is a pipeline using perl to generate public health microbiology reports from sequenced isolates.  
+
+
+
+
+
+
+
+
