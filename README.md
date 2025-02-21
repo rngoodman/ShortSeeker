@@ -162,7 +162,7 @@ Please note that ShortSeeker is a pipeline which connects software written by ot
 - [seqkit](https://github.com/shenwei356/seqkit) for quality control metrics
 - [shovill](https://github.com/tseemann/shovill) for assembly and the assembler used e.g.[SPAdes](https://github.com/ablab/spades) 
 - [mlst](https://github.com/tseemann/mlst) for multi-locus sequence typing and the [PubMLST database](https://pubmlst.org/)
-- [fabricate](https://github.com/tseemann/abricate) for screening assembled contigs for AMR genes and the [Resfinder database](doi:10.1093/jac/dks261).
+- [abricate](https://github.com/tseemann/abricate) for screening assembled contigs for AMR genes and the [Resfinder database](doi:10.1093/jac/dks261).
 
 # Alternative tools
 
