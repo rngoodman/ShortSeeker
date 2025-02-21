@@ -2,20 +2,6 @@
 
 ShortSeeker is a snakemake pipeline which assembles and analyses paired fastq short-read files. It also produces a html report with MLST sequence typing and AMR genes for multiple genomes. 
 
-## Contents
-
-```bash
-gh repo create ShortSeeker --public --source=. --remote=origin
-
-git remote add origin https://github.com/rngoodman/ShortSeeker.git
-
-error: failed to push some refs to 'https://github.com/usename/repo.git'
-hint: Updates were rejected because the tip of your current branch is behind
-hint: its remote counterpart. Integrate the remote changes (e.g.
-hint: 'git pull ...') before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details
-```
-
 # Tutorial
 
 ## 1. Clone ShortSeeker repo
