@@ -7,7 +7,7 @@ ShortSeeker is a snakemake pipeline which assembles and analyses paired fastq sh
 
 - [Installation and usage](https://github.com/rngoodman/ShortSeeker/blob/main/README.md#installation-and-usage)
   - [Clone ShortSeeker repo](https://github.com/rngoodman/ShortSeeker/blob/main/README.md#1-clone-shortseeker-repo)
-  - [Install snakmake](https://github.com/rngoodman/ShortSeeker/blob/main/README.md#2-install-snakemake)
+  - [Install snakemake](https://github.com/rngoodman/ShortSeeker/blob/main/README.md#2-install-snakemake)
   - [Load fastq.gz files into your current directory](https://github.com/rngoodman/ShortSeeker/blob/main/README.md#3-load-fastqgz-files-into-your-current-directory)
   - [Create a list of sample names](https://github.com/rngoodman/ShortSeeker/blob/main/README.md#4-create-a-list-of-sample-names)
   - [Run the snakemake pipeline](https://github.com/rngoodman/ShortSeeker/blob/main/README.md#5-run-the-snakemake-pipeline)
@@ -26,8 +26,12 @@ git clone https://github.com/rngoodman/ShortSeeker.git .
 
 ## 2. Install snakemake
 
+Make sure you have conda installed, if not see [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html).
+
 ```bash
-conda activate WGS_training
+conda create -n snakemake -y python=3.8
+
+conda activate snakemake
 
 conda install bioconda::snakemake
 ```
