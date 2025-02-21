@@ -56,7 +56,7 @@ If you want to run the piepline on sequence files downloaded from online databas
 
 In this example we will download some accessions from the [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/home).
 
-We will choose 5 accessions from the DASSIM study looking at to understand the drivers of acquisition and long term carriage of ESBL-E in sepsis survivors in Blantyre, Malawi. 
+We will choose 5 accessions from the DASSIM study which studied the drivers of acquisition and long term carriage of ESBL-E in sepsis survivors in Blantyre, Malawi. 
 
 For more information and if you use these sequences please cite:
 
