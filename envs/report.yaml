@@ -1,0 +1,11 @@
+name: report_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9  # Or the version compatible with your script
+  - jinja2
+  - pandas
+  - pip  # If additional packages need to be installed via pip
+  - pip:
+      - matplotlib  # Example for plotting, if needed

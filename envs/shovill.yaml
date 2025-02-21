@@ -1,0 +1,8 @@
+name: shovill_env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - shovill
+  - spades

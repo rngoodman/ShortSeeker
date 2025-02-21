@@ -1,0 +1,5 @@
+samples:
+  - ERR3425991
+  - ERR3865575
+abricate_db: "resfinder"
+assembler: "spades"
