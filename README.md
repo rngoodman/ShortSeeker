@@ -152,7 +152,7 @@ snakemake --cores 4 --use-conda
 
 ### Output
 
-This will write lots of text throughout but it should take your fastq files all the way from `.fastq.gz` through to assembled `fasta` file and a `html` report.
+This pipeline will write lots of text throughout, during this time it will take your `fastq` files all the way from `.fastq.gz` through to assembled `fasta` file and a `html` report containing assembly statistics, MLST sequence types and acquired AMR genes.
 
 
 # Third party software 
