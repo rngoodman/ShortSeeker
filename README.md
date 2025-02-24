@@ -28,6 +28,7 @@ First clone the ShortSeeker repository into your current directory
 ```bash
 git clone https://github.com/rngoodman/ShortSeeker.git .
 ```
+Once cloned, check you are in the ShortSeeker directory, it may require a `cd ShortSeeker` command.
 
 ## 2. Install snakemake
 
