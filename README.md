@@ -138,7 +138,7 @@ If you have all these things continue ahead.
 First test with a dry run:
 
 ```bash
-snakemake --cores 1 --directory .test/ --use-conda -n
+snakemake --cores 1 --use-conda -n
 ```
 
 Next run for real:
