@@ -10,6 +10,7 @@ ShortSeeker is a snakemake pipeline which assembles and analyses paired fastq sh
 
 # Contents 
 
+- [The Pipeline](https://github.com/rngoodman/ShortSeeker/blob/main/README.md#the-pipeline)
 - [Installation and usage](https://github.com/rngoodman/ShortSeeker/blob/main/README.md#installation-and-usage)
   - [Clone ShortSeeker repo](https://github.com/rngoodman/ShortSeeker/blob/main/README.md#1-clone-shortseeker-repo)
   - [Install snakemake](https://github.com/rngoodman/ShortSeeker/blob/main/README.md#2-install-snakemake)
@@ -18,6 +19,10 @@ ShortSeeker is a snakemake pipeline which assembles and analyses paired fastq sh
   - [Run the snakemake pipeline](https://github.com/rngoodman/ShortSeeker/blob/main/README.md#5-run-the-snakemake-pipeline)
 - [Software used](https://github.com/rngoodman/ShortSeeker/blob/main/README.md#third-party-software)
 - [Alternatives](https://github.com/rngoodman/ShortSeeker/blob/main/README.md#alternative-tools)
+
+# The Pipeline
+
+The pipeline runs quality checks with [fastp](https://github.com/OpenGene/fastp) filtering for a Q score greater than 20 and adapter trimming (if adapters are present). It then uses [seqkit](https://github.com/shenwei356/seqkit) for quality control metrics. It assembles the reads into contigs using [shovill](https://github.com/tseemann/shovill) which uses the [SPAdes](https://github.com/ablab/spades) assembler. The assembly statistics are computed with [seqkit](https://github.com/shenwei356/seqkit), sequence typing is run with [mlst](https://github.com/tseemann/mlst) and AMR gene screening with [abricate](https://github.com/tseemann/abricate) and the [Resfinder database](http://genepi.food.dtu.dk/resfinder). The assembly stats, mlst and acquired AMR genes are then packaged together into a html report for easy viewing. 
 
 # Installation and usage
 
