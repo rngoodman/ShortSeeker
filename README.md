@@ -153,7 +153,7 @@ snakemake --cores 4 --use-conda
 ```
 
 - `--use-conda` is essential and means that all the required packages will be downloaded and installed through conda without you having to do it yourself.
-- `—cores` dictates the amount of threads or cores you want to give to the pipeline to run the task. This example uses a modest 4 but use more if your computer can take it. Generally the more cores you give the pipeline the less time it will take to complete. 
+- `—cores` dictates the amount of threads or cores you want to give to the pipeline to run the task. This example uses a modest 4 but use more if your computer can take it. Generally, the more cores you give the pipeline the less time it will take to complete. 
 
 ### Output
 
@@ -173,7 +173,7 @@ Please note that ShortSeeker is a pipeline which connects software written by ot
 # Alternative tools
 
 - [Bactopia](https://github.com/bactopia/bactopia) uses Nextflow to create a flexible pipeline for the assembly and analysis of bacterial genomes.
-- [ASA³P](https://github.com/oschwengers/asap) uses Netxflow to assemble, annotate and analyse genome data of closely related bacterial isolates. 
+- [ASA³P](https://github.com/oschwengers/asap) uses Nextflow to assemble, annotate and analyse genome data of closely related bacterial isolates. 
 - [nullarbor](https://github.com/tseemann/nullarbor) is a pipeline using perl to generate public health microbiology reports from sequenced isolates.  
 
 
